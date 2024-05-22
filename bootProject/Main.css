@@ -1,0 +1,113 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#OnOFF:hover{
+
+    color: rgb(47, 47, 161) !important;
+    font-weight: 400;
+    background-color: #f6f4f4 !important;
+
+}
+#apointment:hover{
+    color: rgb(47, 47, 161) !important;
+    font-weight: 400;
+    background-color: #fff !important;
+
+}
+#email:hover{
+    color: rgb(47, 47, 161) !important;
+    font-weight: 500;
+
+}
+#mobile:hover{
+    color: rgb(47, 47, 161) !important ;
+    width: 100%;
+    font: 400;
+    background-color: #e9e9f5 !important;
+}
+/* Hide the dropdown menu by default */
+.dropdown-menu {
+    display: none;
+}
+
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .dropdown-menu {
+    display: block;
+    background-color: #e1d8d8;
+    padding: 0% !important;
+}
+.nav-links{
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    width:100%;
+}
+.cmt-box-col-wrapper{
+    height: 100%;
+    padding: 0%;
+    text-align: center;
+    justify-content: center;
+    /* gap: 40px; */
+    box-sizing: border-box;
+    max-width: 15rem;
+    margin-bottom: 10px;
+    background-color: #f8f1f1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left:45px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.featured-thumbnail-wrapper {
+    position: relative;
+  }
+  
+  .featured-thumbnail img {
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+  }
+  .featured-content{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  .featured-content-icon_img-block img{
+    height: 55px;
+    transform: translateY(-25px);
+    width: 55px;
+    padding:0% !important;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0px 10px 0 rgba(18, 29, 39, 0.16);/* Adjust the width as needed */
+  }
+  .featured-title > h5 > a {
+    text-decoration: none;
+    color: #726f6f;
+    min-height: 30%;
+    margin-top: 30px;
+
+    margin-top:40px ;
+  }
+  .featured-title > h5 > a:hover{
+    color: rgb(44, 44, 234);
+  }
+ .btn6 {
+    text-decoration: none;
+     color: #726f6f;
+  }
+
+.btn6:hover{
+    color:rgb(44, 44, 234) !important;
+  }
+
+ 
